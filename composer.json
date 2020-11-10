@@ -1,0 +1,19 @@
+{
+    "name": "sarahricker/bb_bgimage_srcset",
+    "description": "A CLI command to automatically set src for responsive background images in Beaver Builder",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/sarahricker/beaver-builder-cli-mods",
+    "license": "MIT",
+    "authors": [],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": [ "command.php" ]
+    },
+    "require": {
+        "wp-cli/wp-cli": "^1.1.0"
+    },
+    "require-dev": {
+        "behat/behat": "~2.5"
+    }
+}
