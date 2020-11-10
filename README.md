@@ -5,11 +5,7 @@ A CLI command to automatically set src for responsive background images in Beave
 
 [![Build Status](https://travis-ci.org/sarahricker/bb_bgimage_srcset.svg?branch=master)](https://travis-ci.org/sarahricker/bb_bgimage_srcset)
 
-Quick links: [Using](#using) | [Installing](#installing) | [Contributing](#contributing) | [Support](#support)
-
-## Using
-
-
+Quick links: [Installing](#installing) | [Using](#using) |  [Running Tests](#runningtests)  [Contributing](#contributing) | [Support](#support)
 
 ## Installing
 
@@ -18,6 +14,33 @@ Installing this package requires WP-CLI v1.1.0 or greater. Update to the latest 
 Once you've done so, you can install this package with:
 
     wp package install git@github.com:sarahricker/bb_bgimage_srcset.git
+
+
+## Using
+
+
+
+
+
+## Running Tests
+
+*Navigate to Features Directory*
+`sarah-ricker:bb_bgimage_srcset sarah.ricker$ cd features`
+
+*Init Behat*
+```
+sarah-ricker:features sarah.ricker$ ../vendor/bin/behat --init
++d features - place your *.feature files here
++d features/bootstrap - place bootstrap scripts and static files here
++f features/bootstrap/FeatureContext.php - place your feature related code here
+```
+
+*Run Tests*
+```
+sarah-ricker:features sarah.ricker$ ../vendor/bin/behat
+No scenarios
+No steps
+```
 
 ## Contributing
 
@@ -39,11 +62,6 @@ Once you’ve done a bit of searching and discovered there isn’t an open or fi
 
 Want to contribute a new feature? Please first [open a new issue](https://github.com/sarahricker/bb_bgimage_srcset/issues/new) to discuss whether the feature is a good fit for the project.
 
-Once you've decided to commit the time to seeing your pull request through, [please follow our guidelines for creating a pull request](https://make.wordpress.org/cli/handbook/pull-requests/) to make sure it's a pleasant experience. See "[Setting up](https://make.wordpress.org/cli/handbook/pull-requests/#setting-up)" for details specific to working on this package locally.
-
 ## Support
 
-Github issues aren't for general support questions, but there are other venues you can try: https://wp-cli.org/#support
-
-
-*This README.md is generated dynamically from the project's codebase using `wp scaffold package-readme` ([doc](https://github.com/wp-cli/scaffold-package-command#wp-scaffold-package-readme)). To suggest changes, please submit a pull request against the corresponding part of the codebase.*
+Github issues aren't for general support questions, but there are other venues you can try: https://www.sarahelizabethricker.com/#contact
